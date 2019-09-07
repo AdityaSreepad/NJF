@@ -1,3 +1,4 @@
+@@ -1,126 +0,0 @@
 """
 Django settings for NJF project.
 
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'welcome_test',
     'rest_framework',
+	'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -123,4 +125,3 @@ STATIC_URL = '/static/'
 
 #Activate Django Heroku
 django_heroku.settings(locals())
-
